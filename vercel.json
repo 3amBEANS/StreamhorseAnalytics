@@ -5,7 +5,7 @@
         "src": "streamhorse-analytics/package.json",
         "use": "@vercel/static-build",
         "config": {
-            "distDir": "frontend/dist"
+            "distDir": "streamhorse-analytics/dist"
         }
       },
       {
