@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "start": "concurrently \"cd backend && node index.js\" \"cd streamhorse-analytics && npm run dev\""
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7"
+    }
+}
